@@ -41,7 +41,7 @@ By default, HISAT2 may soft-clip reads near their 5' and 3' ends. Users can cont
 
 If your computer ahs multiple processors/cores, use `-p`. The `-p` option causes HISAT2 to launch a specified number of parallel search threads.
 
-Default output of HISAT2 is a SAM file, and Samtools can be used to convert the SAM to a BAM and sort. 
+Default output of HISAT2 is a SAM file, and [Samtools](https://www.htslib.org/) can be used to convert the SAM to a BAM and sort. 
 
 <ins>Single-end Reads:</ins>
 ```
