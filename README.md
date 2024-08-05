@@ -35,7 +35,7 @@ $ hisat2-build GRCM39.genome.fa genome
 
 ----------------------------------------------------------------------------------------------------------
 
-### 3 - Sequencing Read Alignment to the Index Genome
+### 3 - Sequencing Read Alignment to the Indexed Genome
 
 By default, HISAT2 may soft-clip reads near their 5' and 3' ends. Users can control this behavior by setting different penalties for soft-clipping (`--sp`) or by disallowing soft-clipping (`--no-softclip`). 
 
